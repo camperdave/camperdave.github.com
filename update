@@ -1,0 +1,5 @@
+#!/bin/zsh
+python generator.py
+git add index.html
+git commit -m "Automatic push from the update script, at $(date)"
+git push origin
