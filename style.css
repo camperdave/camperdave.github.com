@@ -38,6 +38,6 @@ ul {
 li > div{
    color: white;
 }
-li > a{
+li > div > a{
    color: white;
 }
