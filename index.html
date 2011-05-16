@@ -20,12 +20,15 @@
 				Following: 6 - Followers: 1 - Public Repositories: 14
 			</div>
 			
-			<h2>Git Achievments</h2>
+			<h2 id="git-ach-title">Git Achievments</h2>
 			<div id="git-achievements">
 			Loading.......
 			</div>
 			<script>
 				$("#git-achievements").load("git-achievements/index.html ul:first");
+				${"#git-ach-title").click(function() {
+				   $("git-achievements").toggle();
+				});
 			</script>
 			
 			<h2>Public Repositories</h2>
@@ -40,7 +43,7 @@
 				<a href="http://wiki.github.com/camperdave/camperdave.github.com">Wiki</a> |
 				<a href="https://github.com/camperdave/camperdave.github.com/downloads">Downloads</a> |
 				<br/>
-				Last Push: Mon May 16 02:43:52 2011
+				Last Push: Mon May 16 02:45:15 2011
 				<pre>My Userpage</pre>
 				
 			</div><!--// .repo //--><div class="repo">

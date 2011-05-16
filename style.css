@@ -41,3 +41,6 @@ li > div{
 li > div a{
    color: white;
 }
+#git-achievements {
+   visibility: hidden;
+}
