@@ -30,6 +30,7 @@ li {
    -webkit-border-radius: 5px;
    margin-bottom: .5em;
    text-shadow: none;
+   color: white;
 }
 ul {
    text-align: left;
